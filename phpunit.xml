@@ -1,0 +1,16 @@
+<phpunit>
+  <php>
+    <ini name="date.timezone" value="Europe/London"/>
+    <includePath>.</includePath>
+    <includePath>./Neo4jRest</includePath>
+    <includePath>../Neo4jRest</includePath>
+  </php>
+  <testsuites>
+    <testsuite name="Neo4JRestPhpApi">
+      <directory>tests</directory>
+      <includePath>.</includePath>
+      <includePath>./Neo4jRest</includePath>
+      <includePath>../Neo4jRest</includePath>
+    </testsuite>
+  </testsuites>
+</phpunit>

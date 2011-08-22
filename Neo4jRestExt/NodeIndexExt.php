@@ -6,6 +6,7 @@ require_once 'Neo4j-REST-PHP-API/Neo4jRest.php';
 use Neo4jRest\Node as Node;
 use Neo4jRest\NodeIndex as NodeIndex;
 use Neo4jRest\HttpHelper as HttpHelper;
+use Neo4jRest\Neo4jRest_HttpException as Neo4jRest_HttpException;
 
 class NodeIndexExt extends NodeIndex {
    
